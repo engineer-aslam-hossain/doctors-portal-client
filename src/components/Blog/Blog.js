@@ -1,30 +1,28 @@
-import React, { useEffect } from "react";
-import { CardDeck } from "react-bootstrap";
-import "./Blog.css";
-import SingleBlog from "../SingleBlog/SingleBlog";
-import DocInfo from "../DocInfo/DocInfo";
-import { useState } from "react";
+import React, { useEffect } from 'react';
+import { CardDeck } from 'react-bootstrap';
+import './Blog.css';
+import SingleBlog from '../SingleBlog/SingleBlog';
+import DocInfo from '../DocInfo/DocInfo';
+import { useState } from 'react';
 
 const Blog = () => {
-
-  const [getBlogs , SetBlogs] = useState([])
+  const [getBlogs, SetBlogs] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:8080/getBlogsData')
-    .then(res => res.json())
-    .then(blogs =>{
-       SetBlogs(blogs)
-      })
-  }, [])
+    fetch('https://doctors-portalserver.herokuapp.com/getBlogsData')
+      .then(res => res.json())
+      .then(blogs => {
+        SetBlogs(blogs);
+      });
+  }, []);
 
-  const [getDoctors , SetDoctors] = useState([])
+  const [getDoctors, SetDoctors] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:8080/getDoctorsData')
-    .then(res => res.json())
-    .then(doc =>{
-      SetDoctors(doc)
-      })
-  }, [])
-
+    fetch('https://doctors-portalserver.herokuapp.com/getDoctorsData')
+      .then(res => res.json())
+      .then(doc => {
+        SetDoctors(doc);
+      });
+  }, []);
 
   return (
     <div className='blogs'>

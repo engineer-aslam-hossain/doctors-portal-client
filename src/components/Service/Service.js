@@ -1,21 +1,19 @@
-import React, { useEffect, useState } from "react";
-import { Button, CardDeck } from "react-bootstrap";
-import dentalImg from "../../images/Mask Group 3.png";
-import doc from "../../images/5790-removebg.png";
-import "./Service.css";
-import SingleService from "../SingleService/SingleService";
+import React, { useEffect, useState } from 'react';
+import { Button, CardDeck } from 'react-bootstrap';
+import dentalImg from '../../images/Mask Group 3.png';
+import doc from '../../images/5790-removebg.png';
+import './Service.css';
+import SingleService from '../SingleService/SingleService';
 
 const Service = () => {
-
-  const [services , SetServices] = useState([])
+  const [services, SetServices] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:8080/getServices')
-    .then(res => res.json())
-    .then(service =>{
-      SetServices(service)
-      })
-  }, [])
-
+    fetch('https://doctors-portalserver.herokuapp.com/getServices')
+      .then(res => res.json())
+      .then(service => {
+        SetServices(service);
+      });
+  }, []);
 
   return (
     <div className='services mx-5 px-4 my-5 pt-5'>

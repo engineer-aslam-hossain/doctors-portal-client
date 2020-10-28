@@ -5,7 +5,7 @@ import './RecentAppointment.css';
 const RecentAppointment = () => {
   const [RecentAppoint, SetRecentAppoint] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:8080/getRecenetAppointment')
+    fetch('https://doctors-portalserver.herokuapp.com/getRecenetAppointment')
       .then(res => res.json())
       .then(recentAppoint => {
         SetRecentAppoint(recentAppoint);

@@ -60,7 +60,7 @@ const SingleAppointment = props => {
   const handleSubmit = event => {
     event.preventDefault();
 
-    fetch('http://localhost:8080/bookAppointment', {
+    fetch('https://doctors-portalserver.herokuapp.com/bookAppointment', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newAppointment),

@@ -4,32 +4,30 @@ import {
   faFileAlt,
   faSignOutAlt,
   faTh,
-  faUpload,
   faUserFriends,
   faUserPlus,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useContext, useEffect } from 'react';
-import { useState } from 'react';
 import SplitPane from 'react-split-pane';
 import DashBoardComponent from '../DashBoardComponent/DashBoardComponent';
 import RecentAppointment from '../RecentAppointment/RecentAppointment';
 import './DashBoard.css';
-import fakeService from '../../fakeData/fakeService';
 import CreateDoctor from '../CreateDoctor/CreateDoctor';
 import { UserContext } from '../../App';
 import { Link, Route } from 'react-router-dom';
 import Switch from 'react-bootstrap/esm/Switch';
+import fakeDoctor from '../../fakeData/fakeDoctor';
 const DashBoard = () => {
   const { LoggedInUser, SetLoggedInUser } = useContext(UserContext);
 
   /////////// add to database ////////
 
   /*  const handleAddDatabase = () => {
-    fetch('http://localhost:8080/addServices', {
+    fetch('https://doctors-portalserver.herokuapp.com/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(fakeService),
+      body: JSON.stringify(fakeDoctor),
     })
       .then(result => result.json())
       .then(data => {
@@ -37,7 +35,6 @@ const DashBoard = () => {
       });
   };
 */
-
   const handleLogout = () => {
     SetLoggedInUser('');
   };

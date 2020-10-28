@@ -10,6 +10,11 @@
 }
 .card {
   border: none;
+  transition: all 0.6s ease;
+}
+.card:hover {
+  box-shadow: 0px 0px 20px rgb(219, 219, 219);
+  cursor: pointer;
 }
 
 .card-title {
@@ -56,7 +61,7 @@ img.dental {
 .appointment {
   margin-top: 12rem;
   padding: 2rem 0;
-  background-image: url("../../images/Mask\ Group\ 4.jpg");
+  background-image: url('../../images/Mask\ Group\ 4.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgb(79, 82, 90);
