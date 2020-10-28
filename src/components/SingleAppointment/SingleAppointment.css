@@ -1,0 +1,23 @@
+.ModalForm input.form-control,
+.ModalForm select.form-control {
+  margin: 1rem;
+  width: 90%;
+  height: 3rem;
+}
+.modalHeader {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #0fcfeb;
+  font-weight: 500;
+}
+button.modalSubmit.btn.btn-primary {
+  outline: none;
+  border: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(to right, #19d3af, #0fcfeb);
+}

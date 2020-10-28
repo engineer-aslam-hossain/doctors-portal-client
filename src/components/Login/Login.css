@@ -1,0 +1,55 @@
+img.loginImg {
+  width: 28rem;
+  position: absolute;
+  top: 5.5rem;
+  left: 0;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 5rem;
+}
+.loginCard {
+  width: 25rem;
+  padding: 2rem;
+  border: none;
+  box-shadow: -2px 4px 10px rgb(226, 226, 226);
+}
+.loginCard h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.loginForm input {
+  height: 3rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid gray;
+}
+
+.loginForm input:focus {
+  box-shadow: none;
+}
+
+.loginForm .loginBtn {
+  width: 18.5rem;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  padding: 0.6rem 0;
+  font-size: 1rem;
+  background: linear-gradient(to right, #19d3af, #0fcfeb);
+}
+
+.createAccount {
+  color: #19d3af;
+}
+.login h3 {
+  position: absolute;
+  top: -3rem;
+  z-index: 1;
+}

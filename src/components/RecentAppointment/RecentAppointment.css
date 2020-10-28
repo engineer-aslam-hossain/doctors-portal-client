@@ -1,0 +1,11 @@
+.recentAppointment span {
+  font-size: 15px;
+}
+.tableHead {
+  color: gray;
+  margin: 1rem 0;
+}
+.tableDetails {
+  font-weight: 600;
+  margin: 1rem 0;
+}

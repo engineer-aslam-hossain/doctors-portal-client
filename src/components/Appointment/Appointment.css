@@ -1,0 +1,59 @@
+.appointmentPage {
+  /* padding: 5rem; */
+  /* background-color: red; */
+}
+img.chariImg {
+  width: 100%;
+}
+.calender {
+  padding: 12rem 5rem 8rem 5rem;
+  background-image: url("../../images/Mask\ Group\ 2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.calender h3 {
+  font-weight: 700;
+  color: #3a4256;
+  margin-bottom: 2rem;
+}
+
+.appointmentSec {
+  box-shadow: 0px 0px 10px rgb(231, 231, 231);
+  border-radius: 3px;
+  margin: 1rem;
+  padding: 1rem 3rem;
+}
+.appointmentSec h5 {
+  color: #19d3af;
+}
+.appointmentSec p {
+  font-size: 0.8rem;
+  color: gray;
+}
+.appointmentSec button {
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  background: linear-gradient(to right, #19d3af, #0fcfeb);
+}
+.appointmentTime {
+  margin: 0 8rem;
+  position: relative;
+  margin-bottom: 5rem;
+}
+.appointmentTitle {
+  color: #0fcfeb;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin: 3rem 0;
+}
+.row.flex-nowrap {
+  padding: 0 5rem;
+}
+/* .modal-dialog {
+  top: 12rem;
+} */

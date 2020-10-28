@@ -1,0 +1,68 @@
+.dashboard {
+  min-height: 38rem;
+}
+.dashboardOptions {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #19d3af, #0fcfeb);
+  padding: 3rem;
+}
+
+.panelName a,
+.dashboardOptions p {
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  margin: 0;
+  display: block;
+}
+.panelName a:hover,
+.dashboardOptions p:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.panelName a:active {
+  opacity: 1;
+}
+.dashboardDetails {
+  background-color: #f4fdfb;
+}
+.singleInfo {
+  max-width: 23%;
+  display: flex;
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 0 0.5rem;
+  color: rgba(255, 255, 255, 0.96);
+}
+.singleInfo h1 {
+  margin-right: 1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.singleInfo p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.Pane.vertical.Pane1 {
+  width: 16% !important;
+}
+.SplitPane.vertical {
+  overflow: visible !important;
+}
+.dashboardRight {
+  max-width: 100% !important;
+}
+.col-2.dashboardOptions {
+  display: flex;
+  flex-direction: column;
+  max-width: 100% !important;
+  min-height: 38rem;
+}
+
+.dashboardDetails {
+  background-color: #f4fbfd;
+  min-height: 38rem;
+}

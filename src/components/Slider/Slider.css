@@ -1,0 +1,78 @@
+.slider {
+  padding: 11rem 0;
+  background-image: url("../../images/Mask\ Group\ 2.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.slider::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 35%;
+  height: 45rem;
+  background-color: #3a4256;
+  z-index: -100;
+}
+.slideImg {
+  width: 60%;
+}
+.slideImg img {
+  width: 80%;
+  margin-left: 5rem;
+}
+.sliderDetails {
+  padding-left: 7rem;
+  padding-right: 6rem;
+}
+.sliderDetails h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  color: #3a4256;
+}
+.sliderDetails p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: gray;
+  margin: 2rem 0;
+}
+
+a.appointmentButton {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  background: linear-gradient(to right, #19d3af, #0fcfeb);
+}
+.chamberDetails {
+  padding: 1.5rem 3rem;
+  margin: 0.5rem;
+  color: white;
+  width: 20rem;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px gray;
+}
+
+svg.svg-inline--fa.fa-clock.fa-w-16,
+svg.svg-inline--fa.fa-map-marker-alt.fa-w-12,
+svg.svg-inline--fa.fa-phone-alt.fa-w-16 {
+  font-size: 3rem;
+  margin-right: 3rem;
+}
+.iconDetails h5 {
+  font-size: 1rem;
+}
+.iconDetails p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 0;
+}
+.row.position-absolute.flex-nowrap.ml-5.pl-4 {
+  bottom: -180px;
+}

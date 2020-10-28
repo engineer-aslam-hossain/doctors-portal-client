@@ -1,0 +1,44 @@
+.footer {
+  padding: 3rem 10rem;
+  background-image: url("../../images/footer-bg.png");
+  background-size: cover;
+  background-position: top;
+}
+.footer p {
+  margin-top: 1rem;
+  color: rgb(156, 156, 156);
+  line-height: 2rem;
+}
+
+.footer span {
+  color: #0febd9;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+p.firstP {
+  margin-top: 4rem;
+}
+span.number {
+  background: linear-gradient(to right, #19d3af, #0fcfeb);
+  color: white;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+svg.svg-inline--fa.fa-facebook.fa-w-16,
+svg.svg-inline--fa.fa-google-plus.fa-w-16,
+svg.svg-inline--fa.fa-twitter.fa-w-16 {
+  background-color: #0febce;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+svg.svg-inline--fa.fa-facebook.fa-w-16:hover,
+svg.svg-inline--fa.fa-google-plus.fa-w-16:hover,
+svg.svg-inline--fa.fa-twitter.fa-w-16:hover {
+  background-color: white;
+  color: #0febce;
+}

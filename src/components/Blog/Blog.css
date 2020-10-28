@@ -1,0 +1,112 @@
+.blogs {
+  margin: 8rem 10rem;
+}
+.blog {
+  box-shadow: 0px 1px 10px rgb(231, 231, 231);
+  padding: 1rem;
+}
+.blogHeading p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #1cc7c1;
+}
+.blogHeading h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  color: #3a4256;
+}
+.docDetails p {
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #3a4256;
+}
+.treatment {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  color: #3a4256;
+  margin-top: 2rem;
+}
+
+.treatmentDetails {
+  font-size: 1.2rem;
+  /* line-height: 2.2rem; */
+  color: rgb(179, 179, 179);
+  margin-bottom: 3rem;
+}
+.blog.card:hover {
+  color: white;
+  background: linear-gradient(
+      to right,
+      rgba(25, 211, 175, 1),
+      rgba(15, 207, 235, 1)
+    ),
+    url("https://imgur.com/jn6kv9q.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.blog.card:hover .feedback {
+  visibility: visible;
+}
+.blog.card:hover .docTreatment {
+  visibility: hidden;
+}
+.feedback {
+  visibility: hidden;
+  position: absolute;
+  top: 45px;
+}
+
+.feedback p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.feedback h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 3rem 0;
+}
+svg.svg-inline--fa.fa-long-arrow-alt-right.fa-w-14 {
+  font-size: 3rem;
+}
+.ourDoctors h3 {
+  margin: 5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0fcfeb;
+}
+.docs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 10px rgb(228, 228, 228);
+  margin: 12px;
+  max-width: 30%;
+  padding: 2rem 0;
+}
+.docs h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.docs span {
+  font-size: 0.8rem;
+  color: gray;
+}
+svg.svg-inline--fa.fa-phone.fa-w-16.fa-flip-horizontal {
+  color: #0fcfeb;
+  margin: 0 0.5rem;
+}
+.imgDiv {
+  max-height: 7rem;
+  max-width: 7rem;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 1rem 0;
+  box-shadow: 0px 5px 10px rgb(228, 228, 228);
+}
