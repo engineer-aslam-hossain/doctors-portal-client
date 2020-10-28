@@ -7,13 +7,10 @@ Role : Full Stack Developer
 #### Features :
 - Responsive UI
 - Single Page Application (SPA)
-- User can see the services provided by the agency.
-- Authenticated users can order for a service by providing a demo.
-- User can see the progress status of his order.
+- User can get an appointment of his/her desire day.
 - A dashboard is available for authenticated admin.
-- Admin can add new services
-- Admin can change order’s status to notify the clients about progress.
-- Admin can add a new admin.
+- Admin can add see all the appointments
+- Admin can change appointment’s status to notify the clients about progress.
 
 #### Technologies :
 ● Front-end :​ ReactJS, React-Router
